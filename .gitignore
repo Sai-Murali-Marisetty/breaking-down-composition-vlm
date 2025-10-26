@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Data files (too large for git)
+data/winoground/images/
+data/aro/images/
+*.zip
+*.tar.gz
+
+# Model cache (downloaded models)
+models/__pycache__/
+.cache/
+*.bin
+*.safetensors
+
+# Results (keep structure, but data can be large)
+results/*.csv
+results/*.json
+
+# Logs
+*.log
+*.txt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# External repos
+vision-language-models-are-bows/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Temporary files
+temp/
+tmp/
