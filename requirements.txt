@@ -34,3 +34,5 @@ python-dotenv>=1.0.0
 ipython>=8.14.0
 jupyter>=1.0.0
 unzip
+easydict
+gdown
